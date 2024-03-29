@@ -1,4 +1,4 @@
-1. Perbaiki diskon 10% (*0.1) di cetak struk dan rekap pesanan.
+1. Perbaiki diskon 10% (*0.10) di cetak struk dan rekap pesanan.
 
 2. Perbaiki screenshot
 
