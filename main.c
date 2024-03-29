@@ -283,20 +283,7 @@ int main(){
                 system("cls");
                 sortingItem(isiBarang);
                 rekapPesanan(isiBarang);
-                printf("Apakah anda ingin berbelanja lagi? y or n : ");
-                scanf(" %c", &konfirmasi);
-                if (konfirmasi == 'y'){
-                    for (int i = 0; i < MAX_ITEMS; i++){
-                        isiBarang[i].jumlah = 0;
-                    }
-                    system("cls");
-                    tampilkanawal = 1;
-                    continue;
-                }
-                else if (konfirmasi == 'n'){
-                    break;
-                }
-
+                break;
             }
         }
         //Pilihan Keluar
