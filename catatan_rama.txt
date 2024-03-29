@@ -11,3 +11,4 @@
 3. Hafalin manual testing
 
 4. Bersihkan ricycle bin
+5. Bersihin history notepad
