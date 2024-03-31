@@ -59,9 +59,12 @@ void cetakNota(struct barang isiBarang[], int uangBayar){
     //Deklarasi file txt
     char filename[100];
     char id[30];
+    char date[50];
+
 //    strftime(filename, sizeof(filename), "%Y-%m-%d_%H-%M-%S.txt", &tanggal)
     strftime(filename, sizeof(filename), "Struk_%Y%m%d_%H%M%S.txt", &tanggal);
     strftime(id, sizeof(id), "%Y%m%d%H%M%S", &tanggal);
+    strftime(date,sizeof(date),"%A, %d-%B-%Y %H:%M:%S", &tanggal);
 
     //Open file dan pointer
     FILE *f = fopen(filename,"w");
@@ -73,7 +76,7 @@ void cetakNota(struct barang isiBarang[], int uangBayar){
     fprintf (f,"|                                      Bali                                      |\n");
     fprintf (f,"|                                Telp : 0816285791                               |\n");
     fprintf (f,"|ID Struk : %s                                                       |\n",id);
-    fprintf (f,"|Tanggal  : %d-%02d-%d %02d:%02d:%02d                                                  |\n", tanggal.tm_mday, tanggal.tm_mon + 1, tanggal.tm_year + 1900, tanggal.tm_hour, tanggal.tm_min, tanggal.tm_sec);
+    fprintf (f,"|Tanggal  : %s                                                        |\n", date);
     fprintf (f,"|================================================================================|\n");
     fprintf (f,"| No. |Nama Barang     | Jumlah | * | Harga     | = | Total         | Diskon     |\n");
     fprintf (f,"|=====|================|========|===|===========|===|===============|============|\n");
