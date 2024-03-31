@@ -1,0 +1,30 @@
+Proses pengujian program dilakukan dengan langkah-langkah berikut:
+
+Perencanaan Pengujian: Menyusun rencana pengujian yang mencakup ruang lingkup, tujuan, dan strategi pengujian.
+
+Perancangan Kasus Uji: Membuat kasus uji yang mencakup input, langkah-langkah pengujian, dan output yang diharapkan.
+
+Pembuatan Data Uji: Menyiapkan data uji yang diperlukan untuk menjalankan kasus uji.
+
+Pengujian Fungsional: Menguji fungsionalitas program untuk memastikan program berjalan sesuai spesifikasi.
+
+Pengujian Non-fungsional: Menguji aspek non-fungsional seperti kinerja, keamanan, dan keandalan program.
+
+Eksekusi Kasus Uji: Menjalankan kasus uji dan mencatat hasilnya.
+
+Analisis Hasil: Memeriksa hasil pengujian untuk menentukan apakah program memenuhi kriteria pengujian.
+
+Pelaporan: Membuat laporan hasil pengujian yang mencakup temuan, kesimpulan, dan rekomendasi.
+
+Retrospetif: Melakukan evaluasi terhadap proses pengujian untuk meningkatkan kualitas pengujian di masa depan.
+
+
+Perencanaan: Menyusun rencana pengujian.
+Perancangan Kasus Uji: Membuat kasus uji.
+Pembuatan Data Uji: Menyiapkan data uji.
+Pengujian Fungsional: Menguji fungsionalitas program.
+Pengujian Non-fungsional: Menguji aspek non-fungsional.
+Eksekusi Kasus Uji: Menjalankan kasus uji.
+Analisis Hasil: Memeriksa hasil pengujian.
+Pelaporan: Membuat laporan hasil pengujian.
+Retrospetif: Evaluasi proses pengujian.
